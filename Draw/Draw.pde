@@ -105,7 +105,7 @@ void draw()
                       DrawColor=#FF00FF;
                     }
     }
-    if (mouseX>displayWidth*0.025&&mouseX<displayWidth*0.50&&mouseY>displayHeight*0.950&&mouseY<displayHeight*0.975)
+    if (mouseX>displayWidth*0.025&&mouseX<displayWidth*0.050&&mouseY>displayHeight*0.950&&mouseY<displayHeight*0.975)
     {
       stroke(#000000);
       strokeWeight(10);
