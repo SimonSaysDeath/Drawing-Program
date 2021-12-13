@@ -22,7 +22,7 @@ void setup()
   rect(displayWidth*0.025, displayHeight*0.175, displayWidth*0.025, displayHeight*0.025);//Blue//
   fill(#00FF00);
   rect(displayWidth*0.025, displayHeight*0.225, displayWidth*0.025, displayHeight*0.025);//Green//
-  fill(#00FFFF);
+  fill(#FFFF00);
   rect(displayWidth*0.025, displayHeight*0.275, displayWidth*0.025, displayHeight*0.025);//Yellow//
   fill(#FF9900);
   rect(displayWidth*0.025, displayHeight*0.325, displayWidth*0.025, displayHeight*0.025);//Orange//
@@ -92,7 +92,7 @@ void draw()
                 if (mouseY>displayHeight*0.275&&mouseY<displayHeight*0.300)
                 {
                   //Yellow//
-                  DrawColor=#00FFFF;
+                  DrawColor=#FFFF00;
                 } else
                   if (mouseY>displayHeight*0.325&&mouseY<displayHeight*0.350)
                   {
@@ -128,7 +128,7 @@ void draw()
       rect(displayWidth*0.025, displayHeight*0.175, displayWidth*0.025, displayHeight*0.025);//Blue//
       fill(#00FF00);
       rect(displayWidth*0.025, displayHeight*0.225, displayWidth*0.025, displayHeight*0.025);//Green//
-      fill(#00FFFF);
+      fill(#FFFF00);
       rect(displayWidth*0.025, displayHeight*0.275, displayWidth*0.025, displayHeight*0.025);//Yellow//
       fill(#FF9900);
       rect(displayWidth*0.025, displayHeight*0.325, displayWidth*0.025, displayHeight*0.025);//Orange//
@@ -187,7 +187,7 @@ void draw()
                 if (mouseY>displayHeight*0.275&&mouseY<displayHeight*0.300)
                 {
                   //Yellow//
-                  EraserColor=#00FFFF;
+                  EraserColor=#FFFF00;
                 } else
                   if (mouseY>displayHeight*0.325&&mouseY<displayHeight*0.350)
                   {
