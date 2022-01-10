@@ -50,6 +50,48 @@ void setup()
 }
 void draw()
 {
+  stroke(#000000);
+  strokeWeight(10);
+  fill(#AAAAAA);
+  rect(displayWidth*0, displayHeight*0, displayWidth*0.125/1, displayHeight*1);//sidebar1//
+  rect(displayWidth*1/1, displayHeight*0, displayWidth*-0.125/1, displayHeight*1);//sidebar2//
+  strokeWeight(1);
+  //Colors//
+  fill(#000000);
+  rect(displayWidth*0.025, displayHeight*0.025, displayWidth*0.025, displayHeight*0.025);//Black//
+  fill(#FFFFFF);
+  rect(displayWidth*0.025, displayHeight*0.075, displayWidth*0.025, displayHeight*0.025);//White//
+  fill(#FF0000);
+  rect(displayWidth*0.025, displayHeight*0.125, displayWidth*0.025, displayHeight*0.025);//Red//
+  fill(#0000FF);
+  rect(displayWidth*0.025, displayHeight*0.175, displayWidth*0.025, displayHeight*0.025);//Blue//
+  fill(#00FF00);
+  rect(displayWidth*0.025, displayHeight*0.225, displayWidth*0.025, displayHeight*0.025);//Green//
+  fill(#FFFF00);
+  rect(displayWidth*0.025, displayHeight*0.275, displayWidth*0.025, displayHeight*0.025);//Yellow//
+  fill(#FF9900);
+  rect(displayWidth*0.025, displayHeight*0.325, displayWidth*0.025, displayHeight*0.025);//Orange//
+  fill(#FF00FF);
+  rect(displayWidth*0.025, displayHeight*0.375, displayWidth*0.025, displayHeight*0.025);//Purple//
+  //Sizes//
+  fill(#000000);
+  rect(displayWidth*0.975, displayHeight*0.025, displayWidth*-0.025, displayHeight*0.025);//Biggest//40//
+  fill(#222222);
+  rect(displayWidth*0.975, displayHeight*0.075, displayWidth*-0.025, displayHeight*0.025);//35//
+  fill(#444444);
+  rect(displayWidth*0.975, displayHeight*0.125, displayWidth*-0.025, displayHeight*0.025);//30//
+  fill(#666666);
+  rect(displayWidth*0.975, displayHeight*0.175, displayWidth*-0.025, displayHeight*0.025);//25//
+  fill(#888888);
+  rect(displayWidth*0.975, displayHeight*0.225, displayWidth*-0.025, displayHeight*0.025);//20//
+  fill(#AAAAAA);
+  rect(displayWidth*0.975, displayHeight*0.275, displayWidth*-0.025, displayHeight*0.025);//15//
+  fill(#CCCCCC);
+  rect(displayWidth*0.975, displayHeight*0.325, displayWidth*-0.025, displayHeight*0.025);//10//
+  fill(#EEEEEE);
+  rect(displayWidth*0.975, displayHeight*0.375, displayWidth*-0.025, displayHeight*0.025);//Smallest//5//
+  //Others//
+  rect(displayWidth*0.025, displayHeight*0.950, displayWidth*0.025, displayHeight*0.025);//Reset//
   if (mouseButton == LEFT&&mouseX>displayWidth*0.125/1&&mouseY>displayHeight*0/1&&mouseX<displayWidth*0.875/1&&mouseY<displayHeight*1) {
     stroke(DrawColor);
     strokeWeight(DrawSize);
