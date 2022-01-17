@@ -1,6 +1,14 @@
+import ddf.minim.*;
+import ddf.minim.analysis.*;
+import ddf.minim.effects.*;
+import ddf.minim.signals.*;
+import ddf.minim.spi.*;
+import ddf.minim.ugens.*;
+
 int DrawSize=10, EraserSize=20, DrawColor=#000000, EraserColor=#FFFFFF;
 void setup()
 {
+  setupagain();
   fullScreen();
   stroke(#000000);
   strokeWeight(10);
@@ -318,5 +326,13 @@ void draw()
                       EraserSize=5;
                     }
     }
+  }
+  if (song[CurrentSong].isPlaying()) {
+    if (song[CurrentSong].position() >= song[CurrentSong].length()) {
+      song[CurrentSong].rewind();
+      song[CurrentSong].play();
+    }
+  } else {
+    song[CurrentSong].play();
   }
 }
